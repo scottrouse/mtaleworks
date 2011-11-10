@@ -8,7 +8,6 @@
  * The active item in a Drupal menu
  */
 li a.active {
-  color: #000;
 }
 
 /*
@@ -28,7 +27,21 @@ li a.active {
 #navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
 #navigation .content li {
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 10px 5px 10px; /* LTR */
+}
+
+ul.menu li a, ul.links li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: lowercase;
+}
+
+#navigation ul.links li a {
+	font-weight: bold;
+}
+
+#navigation ul.links li.active {
+	border-bottom: 1px solid #FFFFFF;
 }
 
 .region-navigation {

@@ -2,15 +2,12 @@
  * @file
  * Page Background Styling
  *
- * The default layout method of Zen doesn't give themers equal-height columns.
- * However, equal-height columns are difficult to achieve and totally
- * unnecessary. Instead, use the Faux Columns method described in the following
- * ALA article:
- *   http://www.alistapart.com/articles/fauxcolumns/
  */
 
 
 body {
+	background: url(../images/bg.jpg) center top #151414 no-repeat;
+	background-size: cover;
 }
 
 #page-wrapper {
@@ -20,15 +17,35 @@ body {
 }
 
 #header {
+	background: -moz-linear-gradient(top, rgba(43,43,43,0.77) 0%, rgba(43,43,43,0.77) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,43,43,0.77)), color-stop(100%,rgba(43,43,43,0.77))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42b2b2b', endColorstr='#c42b2b2b',GradientType=0 ); /* IE6-9 */
 }
 
 #header .section {
 }
 
 #main-wrapper {
+	border-left: 1px solid #8b8a8a;
+	border-right: 1px solid #8b8a8a;
+	border-bottom: 1px solid #8b8a8a;
 }
 
 #main {
+}
+
+#content .section, .front #block-system-main {
+	background: rgba(43,43,43,0.91);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e82b2b2b', endColorstr='#e82b2b2b',GradientType=0 ); /* IE6-9 */
+}
+
+.front #content .section {
+	background: none;
+	filter: none;
 }
 
 .region-footer {

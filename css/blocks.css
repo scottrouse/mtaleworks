@@ -106,3 +106,205 @@ h2.block-title /* Block title */ {
 
 #block-user-online /* "Who's online" block for a list of the online users */ {
 }
+
+
+
+
+#block-block-4 /* Facebook Block */ {
+	position: absolute;
+	top: 40px;
+	right: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+#block-block-4 p {
+	margin: 0;
+	padding: 0;
+}
+
+
+#block-block-3 /* Copyright Statement Block */ {
+	width: 160px;
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+#block-block-3 p {
+	margin: 0;
+}
+
+
+
+
+
+
+#block-system-main-menu /* Footer Menu */ {
+	
+}
+
+#block-system-main-menu ul li {
+  float: left; /* LTR */
+  padding: 0 5px 0 0; /* LTR */
+  list-style: none;
+  list-style-image: none;
+}
+
+#block-system-main-menu ul li a:after {
+	content: " . ";
+}
+
+#block-system-main-menu ul li.last a:after {
+	content: "";
+}
+
+#block-system-main-menu ul li a:hover {
+}
+
+
+
+
+
+
+
+
+
+#block-block-1 /* Hours Block */ {
+	position: absolute;
+	top: 10px;
+	left: 410px;
+	margin: 0;
+	padding: 5px 22px 5px 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.gecko #block-block-1 /* Hours Block */ {
+	padding-right: 27px;
+}
+
+#block-block-1 p {
+	margin: 0;
+}
+
+.not-front #block-block-1 {
+	background: rgba(26,26,26,0.51);
+}
+
+.front #block-block-1 {
+	position: relative;
+	left: 560px;
+	top: -140px;
+	padding: 10px;
+	width: 360px;
+}
+
+
+
+
+#block-block-2 /* Contact Info Block */ {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	margin: 0;
+	padding: 5px 20px 5px 22px;
+	font-weight: bold;
+	background: rgba(26,26,26,0.51);
+}
+
+.gecko #block-block-2 {
+	padding-left: 30px;
+}
+
+#block-block-2 p {
+	margin: 0;
+}
+
+.not-front #block-block-2 {
+}
+
+.front #block-block-2 {
+	position: relative;
+	left: 560px;
+	top: -115px;
+	padding: 10px;
+	width: 360px;
+	text-align: center;
+}
+
+
+
+
+.front #block-system-main {
+	margin: 0 0 0 560px;
+	padding: 1px 10px 120px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#block-views-front-page-accordion-block {
+	background: url(../images/menu-bg.jpg) top center no-repeat #241005;
+	color: #FFFFFF;
+}
+
+#block-views-front-page-accordion-block .views-accordion-header a {
+	text-align: center;
+}
+
+#block-views-front-page-accordion-block .views-accordion-header a span {
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../images/drinks_works-header.png) no-repeat 164px center;
+	display: block;
+	height: 31px;
+}
+
+
+#block-views-front-page-accordion-block .ui-corner-all, #block-views-front-page-accordion-block .ui-corner-top, #block-views-front-page-accordion-block .ui-corner-bottom {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; /* future proofing */
+	-khtml-border-radius: 0px; /* for old Konqueror browsers */
+}
+
+#block-views-front-page-accordion-block .views-accordion-header, #block-views-front-page-accordion-block .views-accordion-header a, #block-views-front-page-accordion-block .ui-accordion-content {
+	background: none;
+	border: none;
+	color: #FFFFFF;
+}
+
+#block-views-front-page-accordion-block .ui-accordion .ui-accordion-header .ui-icon {
+	background-image: none;
+	display: none;
+}
+
+table#drinks-works {
+	width: 100%;
+	margin: 0;
+}
+
+table#drinks-works td {
+	width: 50%;
+	vertical-align: top;
+}
+
+table#drinks-works td#works-column {
+	border-right: 2px solid #C00822;
+	text-align: right;
+	padding-right: 35px;
+}
+
+table#drinks-works td#drinks-column {
+	padding-left: 35px;
+}

@@ -47,7 +47,7 @@ body {
 
 #logo /* Wrapping link for logo */ {
   float: left; /* LTR */
-  margin: 0;
+  margin: 0 0 0 20px;
   padding: 0;
 }
 
@@ -116,6 +116,16 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title /* Comment title */ {
   margin: 0;
+}
+
+h1#page-title {
+	font-weight: bold;
+	text-transform: lowercase;
+	border-bottom: 1px solid #FFFFFF;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	float: left;
+	font-size: 130%;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
@@ -220,10 +230,57 @@ ul.links li {
  * Footer
  */
 .region-footer {
+  font-size: 80%;
 }
 
 /*
  * Page bottom
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gecko #content .field-name-field-slideshow {
+	float: right;
+	position: relative;
+	top: -25px;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+#content .field-name-field-slideshow {
+	float: right;
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+.not-front #content .field-name-body {
+	clear: left;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+
+.front h1#page-title {
+	display: none;
 }

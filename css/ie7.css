@@ -36,3 +36,12 @@ tr.odd th,
 tr.odd td {
   border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
 }
+
+
+#content .section, .front #block-system-main {
+	background: #272727;
+}
+
+a#logo {
+	height: 111px;
+}

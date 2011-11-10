@@ -81,3 +81,11 @@ ul.primary li.active a:focus .tab {
 .with-wireframes .region-bottom {
   border: 1px solid #ccc;
 }
+
+
+
+
+
+#content .section, .front #block-system-main {
+	background: #272727;
+}
