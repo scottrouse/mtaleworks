@@ -39,7 +39,8 @@ tr.odd td {
 
 
 #content .section, .front #block-system-main {
-	background: #272727;
+	/* background: #272727; */
+	background: url(../images/grey.png) repeat;
 }
 
 a#logo {
