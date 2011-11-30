@@ -37,7 +37,8 @@ ul.menu li a, ul.links li a {
 }
 
 #navigation ul.links li a {
-	font-weight: bold;
+	font-weight: normal;
+	font-family: "MisoBold";
 }
 
 #navigation ul.links li.active {

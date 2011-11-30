@@ -6,8 +6,7 @@
 
 
 body {
-	background: url(../images/bg.jpg) center top #151414 no-repeat;
-	background-size: cover;
+	background: url(../images/bg.jpg) center top #000000 no-repeat;
 }
 
 #page-wrapper {
@@ -30,9 +29,9 @@ background: linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%
 }
 
 #main-wrapper {
-	border-left: 1px solid #8b8a8a;
-	border-right: 1px solid #8b8a8a;
-	border-bottom: 1px solid #8b8a8a;
+	border-left: 3px solid #79797B;
+	border-right: 3px solid #79797B;
+	border-bottom: 3px solid #79797B;
 }
 
 #main {

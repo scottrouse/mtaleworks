@@ -70,9 +70,8 @@ body {
 
 #skip-to-nav,
 #page {
-  /* Use a 14px base font size with a 21px line height */
-  font-size: 0.875em; /* 16px x .875 = 14px */
-  line-height: 1.5em; /* 14px x 1.5 = 21px */
+  font-size: 1.125em; /* 16px x 1.125 = 18px */
+  line-height: 1.5em;
 }
 
 
@@ -86,7 +85,7 @@ select,
 option,
 legend,
 fieldset {
-  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "MisoRegular", Verdana, Tahoma, "DejaVu Sans", sans-serif;
 }
 
 pre,

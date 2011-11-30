@@ -182,16 +182,20 @@ margin-left: auto;
 	position: absolute;
 	z-index: -9999;
 	top: 25px;
-	width: 100%;
+	left: 50%;
+	margin-left: -480px;
+	width: 960px;
 	height: 689px;
 	overflow: hidden;
 	text-align: center;
 }
 
+/*
 #block-views-background-image-block img, #views_slideshow_cycle_teaser_section_background_image-block, #views_slideshow_cycle_teaser_section_background_image-block .views_slideshow_cycle_slide {
 	width: 100% !important;
 	height: auto;
 }
+*/
 
 
 
