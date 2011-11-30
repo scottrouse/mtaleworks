@@ -23,7 +23,7 @@ background: -webkit-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.
 background: -o-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* IE10+ */
 background: linear-gradient(top, rgba(43,43,43,0.77) 0%,rgba(43,43,43,0.77) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42b2b2b', endColorstr='#c42b2b2b',GradientType=0 ); /* IE6-9 */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42b2b2b', endColorstr='#c42b2b2b',GradientType=0 ); */ /* IE6-9 */
 }
 
 #header .section {

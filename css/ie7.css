@@ -38,11 +38,30 @@ tr.odd td {
 }
 
 
-#content .section, .front #block-system-main {
+#content .section, .front #block-system-main, #header {
 	/* background: #272727; */
 	background: url(../images/grey.png) repeat;
 }
 
 a#logo {
 	height: 111px;
+	position: absolute;
+	z-index: 20;
+}
+
+#header {
+	z-index: 1;
+}
+
+#main-wrapper {
+	z-index: 3;
+}
+
+#header .section {
+	z-index: 10;
+	height: 111px;
+}
+
+#block-block-3 {
+	margin-top: 17px;
 }
